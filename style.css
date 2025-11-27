@@ -12,9 +12,13 @@ body {
 }
 
 .logo {
-    font-size: 42px;
-    font-weight: 700;
-    color: #8B5FBF; /* lavender */
+    font-family: 'Great Vibes', cursive;
+    font-size: 68px;
+    font-weight: normal;
+    color: #bc8bf5;
+    text-shadow: 0px 3px 8px rgba(139, 95, 191, 0.25);
+    letter-spacing: 1px;
+    line-height: 1.2;
 }
 
 .subtitle {
