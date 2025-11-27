@@ -32,8 +32,8 @@ body {
     background-color: #ffffff;
     max-width: 650px;
     margin: 0 auto;
-    margin-bottom: 10px;
-    padding: 40px 30px;
+    margin-bottom: 6px;
+    padding: 28px 24px;
     border-radius: 22px;
     box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
     text-align: center;
@@ -76,21 +76,22 @@ body {
 /* SECTIONS */
 .section {
     max-width: 750px;
-    margin: 20px auto;
-    padding: 10px 20px;
+    margin: 6px auto;
+    padding: 4px 20px;
 }
 
 .section h3 {
     color: #8B5FBF;
     font-size: 24px;
+    margin-bottom: 6px;
 }
 
 /* GRID FOR IMAGES */
 .image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    margin-top: 10px;
+    gap: 6px;
+    margin-top: 6px;
 }
 
 .image-grid img {
@@ -108,7 +109,7 @@ body {
 /* FOOTER */
 footer {
     text-align: center;
-    padding: 20px 10px;
+    padding: 18px 10px;
     font-size: 14px;
     color: #5e447c;
 }
