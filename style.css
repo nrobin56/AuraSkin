@@ -32,6 +32,7 @@ body {
     background-color: #ffffff;
     max-width: 650px;
     margin: 0 auto;
+    margin-bottom: 10px;
     padding: 40px 30px;
     border-radius: 22px;
     box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
@@ -75,8 +76,8 @@ body {
 /* SECTIONS */
 .section {
     max-width: 750px;
-    margin: 40px auto;
-    padding: 20px 20px;
+    margin: 20px auto;
+    padding: 10px 20px;
 }
 
 .section h3 {
@@ -88,8 +89,8 @@ body {
 .image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    margin-top: 20px;
+    gap: 10px;
+    margin-top: 10px;
 }
 
 .image-grid img {
@@ -107,7 +108,7 @@ body {
 /* FOOTER */
 footer {
     text-align: center;
-    padding: 40px 10px;
+    padding: 20px 10px;
     font-size: 14px;
     color: #5e447c;
 }
