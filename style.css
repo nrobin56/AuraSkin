@@ -106,6 +106,19 @@ body {
     margin-top: 70px;
 }
 
+.project-tag {
+    display: inline-block;
+    margin-top: 6px;
+    padding: 6px 12px;
+    background-color: #F2D9B8; /* soft tan */
+    border-radius: 10px;
+    color: #8B5FBF; /* lavender */
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid rgba(139, 95, 191, 0.25);
+    box-shadow: 0 2px 6px rgba(139, 95, 191, 0.15);
+}
+
 /* FOOTER */
 footer {
     text-align: center;
