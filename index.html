@@ -3,44 +3,98 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AuraSkin – AC3 Final Project</title>
+    <title>AuraSkin</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<div class="container">
+    <!-- HEADER SECTION -->
+    <header class="header">
+        <h1 class="logo">
+            AuraSkin <span class="icon">🌸</span>
+        </h1>
+    </header>
 
-    <!-- LEFT SIDE: PROJECT INFO -->
-    <div class="left">
-        <h1 class="title">AC3 – AuraSkin (Purple)</h1>
-        <p class="course">AI 7993 – Fall 2025</p>
+    <!-- MAIN CARD SECTION -->
+    <section class="main-card">
+        <h2>Welcome to AuraSkin</h2>
+        <p class="description">
+            A mobile AI-powered skincare analysis application designed to detect acne, dark spots, and normal skin types using a custom-trained MobileNet model.
+        </p>
 
-        <div class="links">
+        <!-- BUTTONS -->
+        <div class="button-group">
             <a class="btn" href="final_report.pdf" target="_blank">Final Report (PDF)</a>
-            <a class="btn" href="https://github.com/YourUsername/auraskin_app" target="_blank">GitHub Source Code</a>
+            <a class="btn" href="https://github.com/YourUsername/auraskin_app" target="_blank">Mobile App GitHub</a>
+            <a class="btn" href="https://github.com/YourUsername/auraskin_backend" target="_blank">Backend GitHub</a>
             <a class="btn" href="https://youtu.be/yITVVoOcfWY" target="_blank">Presentation Video</a>
         </div>
-    </div>
+    </section>
+    
+    <!-- CREATOR SECTION -->
+    <section class="section creator">
+        <h3 class="creator-title">Meet the Creator</h3>
+        <img src="IMG_7697.jpg" alt="Nyah Robinson" class="creator-image">
 
-    <!-- RIGHT SIDE: CREATOR INFO -->
-    <div class="right">
-        <img src="IMG_7697.jpg" alt="Nyah Robinson" class="profile">
+        <p class="creator-name"><strong>Nyah Robinson</strong></p>
 
-        <h3 class="name">Nyah Robinson</h3>
-        <p class="program">
-            Master of Science – Artificial Intelligence<br>
+        <p class="creator-info">
+            [AC3] AuraSkin | AI 7993 | Fall 2025
+        </p>
+
+        <p class="creator-subtext">
+            Graduate Student - Master of Science in Artificial Intelligence<br/>
             Kennesaw State University
         </p>
-    </div>
+    </section>
 
-</div>
+    <!-- ABOUT SECTION -->
+    <section class="section">
+        <h3>About the Project</h3>
+        <p>
+            AuraSkin uses a lightweight convolutional neural network (MobileNetV2) to classify skin conditions and recommend skincare steps. The app is built using Flutter and connects to a FastAPI backend where image analysis is performed.
+        </p>
+    </section>
 
-<footer>
-    <p>© 2025 AuraSkin – Final Report Package</p>
-</footer>
+    <!-- MODEL SECTION -->
+    <section class="section">
+        <h3>AI Model Overview</h3>
+        <p>
+            The model was trained on a curated dataset of 300 labeled skin images: acne, normal, and dark spots. Images were preprocessed, augmented, and fed into a MobileNetV2 transfer learning pipeline. Final accuracy exceeded expectations due to balanced training and validation.
+        </p>
+    </section>
+
+    <!-- DATASET SECTION -->
+    <section class="section">
+        <h3>Dataset Summary</h3>
+        <ul>
+            <li>🔹 100+ acne images</li>
+            <li>🔹 100+ normal skin images</li>
+            <li>🔹 100+ dark spot images</li>
+            <li>🔹 Images resized to 224×224</li>
+            <li>🔹 Augmentation: flip, rotate, zoom</li>
+        </ul>
+    </section>
+
+    <!-- SCREENSHOTS SECTION -->
+    <section class="section">
+        <h3>App Screenshots</h3>
+        <div class="image-grid">
+            <img src="Screenshot-Home.png" alt="Home Screen">
+            <img src="Screenshot-Camera.png" alt="Camera Screen">
+            <img src="Screenshot-Results.png" alt="Results Screen">
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 AuraSkin – Designed & Built by Nyah Robinson</p>
+    </footer>
 
 </body>
 </html>
-
